@@ -33,14 +33,20 @@
   transition: all;
   transition-duration: 300ms;
 }
-.donate-amount:hover{
+.donate-amount:hover {
   background-color: rgb(198, 228, 214);
   color: black;
   transition: all;
   transition-duration: 300ms;
 }
-.donate-amount-2:hover{
+.donate-amount-2:hover {
   background-color: transparent;
+  color: black;
+  transition: all;
+  transition-duration: 300ms;
+}
+.btn-secondary-2:hover {
+  background-color: aqua;
   color: black;
   transition: all;
   transition-duration: 300ms;
@@ -459,25 +465,115 @@ header {
   text-align: left;
   padding: 40px;
 }
-.donate-input{
+.donate-input {
   width: 1032px;
   margin: 32px auto;
-  padding: 20px ;
+  padding: 20px;
   border: none;
   text-align: center;
   color: rgba(14, 14, 14, 0.3);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-outline: none;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  outline: none;
 }
-.btn-center{
+.btn-center {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.buton{
+.buton {
   margin-top: 0px;
+}
+
+/*? news later section  */
+.news-later {
+  border-radius: 24px;
+  padding: 80px 100px ;
+  margin-bottom: 80px;
+  background: rgb(198, 228, 214);
+}
+.news-later-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news-latter-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 622px;
+  margin: 16px auto 24px;
+}
+.btn-secondary-2 {
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  border: none;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+}
+.news-latter-input {
+  border-radius: 8px 0px 0px 8px;
+  height: 55px;
+  width: 600px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 40px 0px 40px;
+}
+.news-latter-input-container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.news-latter-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 25px;
+}
+
+/*? footer section  */
+.line{
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  width: 1122px;
+  margin: 32px auto;
+}
+.footer{
+  background-color: #fff;
+}
+.footer-container{
+  padding-top:50px;
+}
+.footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 32px;
+  padding-bottom:50px ;
 }

@@ -265,12 +265,83 @@ header {
   margin-top: 12px;
   margin-bottom: 6px;
 }
-.quote-subtitle{
+.quote-subtitle {
   color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/*? opinion section  */
+.opinion-container {
+  border-radius: 16px;
+  padding: 32px;
+  background: rgb(255, 255, 255);
+}
+
+/*? Questions section  */
+.opinion{
+  margin-bottom: 66px;
+}
+.opinion-container{
+  margin-top: 24px;
+}
+.table-head{
+  width: 100%;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+.qu-title{
+  color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
+font-size: 20px;
+font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+}
+.color{
+  background-color: rgb(198, 228, 214);
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.coloumn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.question{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.padd{
+  padding: 24px;
+}
+.table-btn{
+  padding: 10px 14px 10px 14px;
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgba(9, 161, 92, 0.15);
+}
+.row{
+  display: flex;
+  gap: 18px;
+  align-items: center;
 }
